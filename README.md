@@ -13,7 +13,7 @@ The function returned by `on_func` is a higher-order function. It can be execute
 local on_func = require('lazy_on_func.nvim').on_func
 ```
 
-## Use with [searchx](https://github.com/hrsh7th/vim-searchx)
+### Use with [searchx](https://github.com/hrsh7th/vim-searchx)
 
 ```lua
 return {
@@ -46,3 +46,7 @@ return {
   },
 }
 ```
+
+### Special Thanks
+
+[@delphinus](https://github.com/delphinus)
